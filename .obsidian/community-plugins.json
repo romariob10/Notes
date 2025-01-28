@@ -1,4 +1,9 @@
 [
   "obsidian-chartsview-plugin",
-  "juggl"
+  "juggl",
+  "remotely-save",
+  "obsidian-kanban",
+  "calendar",
+  "obsidian-tasks-plugin",
+  "obsidian-excalidraw-plugin"
 ]

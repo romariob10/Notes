@@ -164,6 +164,16 @@
               "icon": "lucide-tags",
               "title": "Теги"
             }
+          },
+          {
+            "id": "69b3b13c2b6477de",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ],
         "currentTab": 5
@@ -181,10 +191,12 @@
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
       "markdown-importer:Импорт Markdown-файлов": false,
-      "juggl:Juggl global graph": false
+      "juggl:Juggl global graph": false,
+      "remotely-save:Remotely Save": false,
+      "obsidian-kanban:Создать новую доску": false
     }
   },
-  "active": "5e3456d89ec3935b",
+  "active": "eabe94b7645a1427",
   "lastOpenFiles": [
     "ProgrammingSummaries/Графы/Без названия.canvas",
     "ProgrammingSummaries/Графы/Задача о паросочетании в двудольном графе.md",
