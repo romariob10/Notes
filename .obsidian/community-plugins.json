@@ -6,5 +6,10 @@
   "calendar",
   "obsidian-tasks-plugin",
   "obsidian-excalidraw-plugin",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-latex-suite",
+  "obsidian-functionplot",
+  "kale-graph",
+  "plot-vectors-graphs",
+  "obsidian-charts"
 ]

@@ -1,0 +1,14 @@
+.kale-graph-canvas {
+    padding: 0;
+    margin: 0;
+    border-radius: var(--input-radius);
+}
+
+*:has(> .kale-graph-canvas) {
+    padding: 0;
+    height: 350px;
+}
+
+.kale-graph-error {
+    color: var(--text-error);
+}
