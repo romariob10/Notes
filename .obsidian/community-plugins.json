@@ -5,5 +5,12 @@
   "obsidian-kanban",
   "calendar",
   "obsidian-tasks-plugin",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "obsidian-math-plus",
+  "graph-analysis",
+  "obsidian-advanced-slides",
+  "obsidian-custom-frames",
+  "obsidian-git",
+  "dataview",
+  "convert-url-to-iframe"
 ]

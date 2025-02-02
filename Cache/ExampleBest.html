@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Интерактивный граф</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background: #1e1e1e;
+        }
+        canvas {
+            cursor: grab;
+        }
+        canvas:active {
+            cursor: grabbing;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        
+        let scale = 1;
+        let offsetX = 0;
+        let offsetY = 0;
+        let isDragging = false;
+        let lastX = 0;
+        let lastY = 0;
+
+        let graph = {
+            nodes: [
+                {id: 1, x: 100, y: 100, label: '1', color: '#3498db'},
+                {id: 2, x: 200, y: 200, label: '2', color: '#3498db'},
+                {id: 3, x: 300, y: 300, label: '3', color: '#3498db'},
+                {id: 4, x: 400, y: 400, label: '4', color: '#3498db'},
+                {id: 5, x: 500, y: 500, label: "5'", color: '#2ecc71'}
+            ],
+            links: [
+                {source: 1, target: 2},
+                {source: 1, target: 3},
+                {source: 2, target: 3},
+                {source: 2, target: 4},
+                {source: 3, target: 4},
+                {source: 4, target: 5}
+            ]
+        };
+
+        function initCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+        
+        function draw() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            ctx.save();
+            ctx.translate(offsetX, offsetY);
+            ctx.scale(scale, scale);
+
+            ctx.strokeStyle = '#bbb';
+            ctx.lineWidth = 2;
+            graph.links.forEach(link => {
+                const source = graph.nodes.find(n => n.id === link.source);
+                const target = graph.nodes.find(n => n.id === link.target);
+                ctx.beginPath();
+                ctx.moveTo(source.x, source.y);
+                ctx.lineTo(target.x, target.y);
+                ctx.stroke();
+            });
+
+            graph.nodes.forEach(node => {
+                ctx.fillStyle = node.color;
+                ctx.beginPath();
+                ctx.arc(node.x, node.y, 20, 0, Math.PI * 2);
+                ctx.fill();
+                
+                ctx.fillStyle = '#fff';
+                ctx.font = '14px Arial';
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.fillText(node.label, node.x, node.y);
+            });
+
+            ctx.restore();
+        }
+
+        canvas.addEventListener('mousedown', (e) => {
+            isDragging = true;
+            lastX = e.clientX;
+            lastY = e.clientY;
+            canvas.style.cursor = 'grabbing';
+        });
+
+        canvas.addEventListener('mousemove', (e) => {
+            if (isDragging) {
+                const dx = e.clientX - lastX;
+                const dy = e.clientY - lastY;
+                lastX = e.clientX;
+                lastY = e.clientY;
+                offsetX += dx;
+                offsetY += dy;
+                draw();
+            }
+        });
+
+        canvas.addEventListener('mouseup', () => {
+            isDragging = false;
+            canvas.style.cursor = 'grab';
+        });
+
+        canvas.addEventListener('wheel', (e) => {
+            e.preventDefault();
+            const zoomIntensity = 0.1;
+            const mouseX = e.clientX - offsetX;
+            const mouseY = e.clientY - offsetY;
+            
+            const newScale = e.deltaY < 0 ? 
+                scale * (1 + zoomIntensity) : 
+                scale / (1 + zoomIntensity);
+            
+            if (newScale > 0.1 && newScale < 5) {
+                offsetX -= (mouseX / scale) * (newScale - scale);
+                offsetY -= (mouseY / scale) * (newScale - scale);
+                scale = newScale;
+                draw();
+            }
+        });
+
+        initCanvas();
+        window.addEventListener('resize', initCanvas);
+        draw();
+
+        window.initGraph = (newGraph) => {
+            // Автоматически генерируем координаты если они не указаны
+            graph.nodes = newGraph.nodes.map((node, index) => ({
+                ...node,
+                x: node.x || 100 + index * 120,
+                y: node.y || 100 + (index % 5) * 100,
+                color: node.color || '#3498db'
+            }));
+            
+            graph.links = newGraph.links;
+            
+            // Пересчет позиций при обновлении
+            if (!newGraph.preventLayout) {
+                applyForceLayout();
+            }
+            
+            draw();
+        };
+
+        // Простой алгоритм для расположения узлов
+        function applyForceLayout() {
+            // Реализация простой физической модели
+            // (можете добавить свою логику размещения узлов)
+            graph.nodes.forEach(node => {
+                node.vx = node.vy = 0;
+            });
+            
+            for (let i = 0; i < 100; i++) {
+                graph.nodes.forEach(node => {
+                    graph.nodes.forEach(other => {
+                        if (node === other) return;
+                        const dx = other.x - node.x;
+                        const dy = other.y - node.y;
+                        const d = Math.sqrt(dx*dx + dy*dy);
+                        const force = (d - 200) * 0.01;
+                        node.vx += force * dx/d;
+                        node.vy += force * dy/d;
+                    });
+                });
+                
+                graph.nodes.forEach(node => {
+                    node.x += node.vx;
+                    node.y += node.vy;
+                    node.vx *= 0.8;
+                    node.vy *= 0.8;
+                });
+            }
+        }
+        
+    </script>
+</body>
+</html>
