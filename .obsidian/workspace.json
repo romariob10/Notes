@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgrammingSummaries/Геометрия/Окружность.md",
+                "file": "ProgrammingSummaries/Геометрия/Геометрия окружностей.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Окружность"
+              "title": "Геометрия окружностей"
             }
           },
           {
@@ -49,12 +49,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgrammingSummaries/Геометрия/Окружность.md",
+                "file": "ProgrammingSummaries/Геометрия/Геометрия окружностей.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Окружность"
+              "title": "Геометрия окружностей"
             }
           },
           {
@@ -282,10 +282,14 @@
       "obsidian-excalidraw-plugin:Создать новый чертеж": false
     }
   },
-  "active": "141581714c89d508",
+  "active": "f45fa2b5a8e1ef2e",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-02-02 14.23.12.excalidraw.md",
+    "ProgrammingSummaries/Геометрия/Геометрия окружностей.md",
+    "Безымянная Kanban-доска.md",
+    "Excalidraw/Drawing 2025-02-02 14.23.05.excalidraw.md",
+    "Excalidraw",
     "ProgrammingSummaries/Графы/Задача о паросочетании в двудольном графе.md",
-    "ProgrammingSummaries/Геометрия/Окружность.md",
     "ProgrammingSummaries/Геометрия/Вектора.md",
     "ProgrammingSummaries/Геометрия",
     "ProgrammingSummaries/Графы/Без названия.canvas",
