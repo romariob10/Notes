@@ -6,9 +6,10 @@
       {
         "id": "842b5bdb92c61119",
         "type": "tabs",
+        "dimension": 53.67892976588629,
         "children": [
           {
-            "id": "cb8eb24f5dd517ad",
+            "id": "f45fa2b5a8e1ef2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,20 +20,6 @@
               },
               "icon": "lucide-file",
               "title": "Окружность"
-            }
-          },
-          {
-            "id": "cfc3349fc976d2ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgrammingSummaries/Геометрия/Вектора.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Вектора"
             }
           },
           {
@@ -54,6 +41,7 @@
       {
         "id": "2b2e19a3790f274d",
         "type": "tabs",
+        "dimension": 46.32107023411371,
         "children": [
           {
             "id": "141581714c89d508",
@@ -259,9 +247,19 @@
               "icon": "ag-style",
               "title": "Juggl style"
             }
+          },
+          {
+            "id": "ee27806f6d328f64",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
@@ -284,11 +282,11 @@
       "obsidian-excalidraw-plugin:Создать новый чертеж": false
     }
   },
-  "active": "cb8eb24f5dd517ad",
+  "active": "141581714c89d508",
   "lastOpenFiles": [
     "ProgrammingSummaries/Графы/Задача о паросочетании в двудольном графе.md",
-    "ProgrammingSummaries/Геометрия/Вектора.md",
     "ProgrammingSummaries/Геометрия/Окружность.md",
+    "ProgrammingSummaries/Геометрия/Вектора.md",
     "ProgrammingSummaries/Геометрия",
     "ProgrammingSummaries/Графы/Без названия.canvas",
     "ProgrammingSummaries/Графы",
