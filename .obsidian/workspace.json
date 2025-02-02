@@ -20,6 +20,41 @@
               "icon": "lucide-file",
               "title": "Задача о паросочетании в двудольном графе"
             }
+          },
+          {
+            "id": "46bbdd43aaa166da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ProgrammingSummaries/Графы/Задача о паросочетании в двудольном графе.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Задача о паросочетании в двудольном графе"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "3a9529702dfc0ba7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af1e95a82f6dc50e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ProgrammingSummaries/Графы/Задача о паросочетании в двудольном графе.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Задача о паросочетании в двудольном графе"
+            }
           }
         ]
       }
@@ -40,7 +75,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Файловый менеджер"
@@ -138,8 +174,8 @@
             "state": {
               "type": "juggl_nodes",
               "state": {},
-              "icon": "ag-node-list",
-              "title": "Juggl nodes"
+              "icon": "lucide-file",
+              "title": "Плагин больше не активен"
             }
           },
           {
@@ -148,8 +184,8 @@
             "state": {
               "type": "juggl_style",
               "state": {},
-              "icon": "ag-style",
-              "title": "Juggl style"
+              "icon": "lucide-file",
+              "title": "Плагин больше не активен"
             }
           },
           {
@@ -159,7 +195,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Теги"
@@ -171,8 +209,28 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "Плагин больше не активен"
+            }
+          },
+          {
+            "id": "d344378c4b5d6bc7",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "ag-node-list",
+              "title": "Juggl nodes"
+            }
+          },
+          {
+            "id": "5ddaedb6190d8a45",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "ag-style",
+              "title": "Juggl style"
             }
           }
         ],
@@ -180,10 +238,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Меню быстрого перехода": false,
       "graph:Граф": false,
       "canvas:Создать новый холст": false,
@@ -193,10 +253,11 @@
       "markdown-importer:Импорт Markdown-файлов": false,
       "juggl:Juggl global graph": false,
       "remotely-save:Remotely Save": false,
-      "obsidian-kanban:Создать новую доску": false
+      "obsidian-kanban:Создать новую доску": false,
+      "obsidian-excalidraw-plugin:Создать новый чертеж": false
     }
   },
-  "active": "eabe94b7645a1427",
+  "active": "46bbdd43aaa166da",
   "lastOpenFiles": [
     "ProgrammingSummaries/Графы/Без названия.canvas",
     "ProgrammingSummaries/Графы/Задача о паросочетании в двудольном графе.md",
