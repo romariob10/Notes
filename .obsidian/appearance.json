@@ -1,4 +1,5 @@
 {
   "cssTheme": "Improved Potato",
-  "accentColor": "#ffffff"
+  "accentColor": "#ffffff",
+  "baseFontSize": 18
 }
