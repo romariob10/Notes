@@ -4,71 +4,72 @@
     "type": "split",
     "children": [
       {
-        "id": "842b5bdb92c61119",
+        "id": "3d58241fa02e267e",
         "type": "tabs",
-        "dimension": 53.67892976588629,
+        "dimension": 46.48829431438127,
         "children": [
           {
-            "id": "f45fa2b5a8e1ef2e",
+            "id": "954aee0c33d9ba0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgrammingSummaries/Геометрия/Геометрия окружностей.md",
+                "file": "ProgrammingSummaries/Геометрия/Многоугольники. Поиск выпуклой оболочки - алгоритм Грэхема.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Геометрия окружностей"
+              "title": "Многоугольники. Поиск выпуклой оболочки - алгоритм Грэхема"
             }
           },
           {
-            "id": "654a63dd00bda517",
+            "id": "49ad52befba276bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgrammingSummaries/Графы/Задача о паросочетании в двудольном графе.md",
+                "file": "ProgrammingSummaries/Геометрия/Вектора.md",
                 "mode": "source",
-                "source": true
+                "source": true,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Задача о паросочетании в двудольном графе"
+              "title": "Вектора"
             }
           }
         ]
       },
       {
-        "id": "2b2e19a3790f274d",
+        "id": "6e2fbbdc04e378b4",
         "type": "tabs",
-        "dimension": 46.32107023411371,
+        "dimension": 53.51170568561873,
         "children": [
           {
-            "id": "141581714c89d508",
+            "id": "27d48948d1c27b7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgrammingSummaries/Геометрия/Геометрия окружностей.md",
+                "file": "ProgrammingSummaries/Геометрия/Многоугольники. Поиск выпуклой оболочки - алгоритм Грэхема.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Геометрия окружностей"
+              "title": "Многоугольники. Поиск выпуклой оболочки - алгоритм Грэхема"
             }
           },
           {
-            "id": "575b8f678658dac8",
+            "id": "3e32ceb0e9714d9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgrammingSummaries/Графы/Задача о паросочетании в двудольном графе.md",
+                "file": "ProgrammingSummaries/Геометрия/Вектора.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Задача о паросочетании в двудольном графе"
+              "title": "Вектора"
             }
           }
         ]
@@ -282,28 +283,33 @@
       "obsidian-excalidraw-plugin:Создать новый чертеж": false
     }
   },
-  "active": "fe3b0309bb3ab723",
+  "active": "27d48948d1c27b7c",
   "lastOpenFiles": [
     "ProgrammingSummaries/Геометрия/Геометрия окружностей.md",
+    "ProgrammingSummaries/Геометрия/Многоугольники. Поиск выпуклой оболочки - алгоритм Грэхема.md",
+    "ProgrammingSummaries/Геометрия/Окружность. Задачт.md",
+    "ProgrammingSummaries/Геометрия/Вектора.md",
+    "geogebra-export.svg",
+    "Seti/Методы кодирования информации.md",
+    "ProgrammingSummaries/Графы/Задача о паросочетании в двудольном графе.md",
+    "Seti",
+    "Pasted image 20250204191334.png",
+    "Безымянная Kanban-доска.md",
+    "README.md",
+    "Excalidraw/Drawing 2025-02-02 14.23.05.excalidraw.md",
     "conflict-files-obsidian-git.md",
     "demo.txt",
-    "Pasted image 20250204191334.png",
     "ChatBot/Введение.md",
     "ChatBot",
     "Cache/ExampleEasy.html",
     "Cache/ExampleBest.html",
     "Cache",
     "Excalidraw/Drawing 2025-02-02 14.23.12.excalidraw.md",
-    "Безымянная Kanban-доска.md",
-    "Excalidraw/Drawing 2025-02-02 14.23.05.excalidraw.md",
     "Excalidraw",
-    "ProgrammingSummaries/Графы/Задача о паросочетании в двудольном графе.md",
-    "ProgrammingSummaries/Геометрия/Вектора.md",
     "ProgrammingSummaries/Геометрия",
     "ProgrammingSummaries/Графы/Без названия.canvas",
     "ProgrammingSummaries/Графы",
     "Графы.md",
-    "Г",
-    "README.md"
+    "Г"
   ]
 }

@@ -6,12 +6,13 @@
   "calendar",
   "obsidian-tasks-plugin",
   "obsidian-excalidraw-plugin",
-  "obsidian-math-plus",
-  "graph-analysis",
-  "obsidian-advanced-slides",
-  "obsidian-custom-frames",
   "obsidian-git",
-  "dataview",
-  "convert-url-to-iframe",
-  "obsidian-functionplot"
+  "obsidian-latex-suite",
+  "obsidian-functionplot",
+  "kale-graph",
+  "plot-vectors-graphs",
+  "obsidian-charts",
+  "obsidian-desmos",
+  "obsidian-custom-frames",
+  "convert-url-to-iframe"
 ]
