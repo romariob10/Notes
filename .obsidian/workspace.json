@@ -30,18 +30,6 @@
               "icon": "lucide-file",
               "title": "Тернарный (троичный) поиск"
             }
-          },
-          {
-            "id": "913f08bca37d99f7",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-03-16 13.21.59.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-03-16 13.21.59.excalidraw"
-            }
           }
         ]
       },
@@ -318,7 +306,16 @@
   },
   "active": "74ea56bb394d32f6",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "ProgrammingSummaries/Тернарный (троичный) поиск.md",
+    "Own/Без названия.md",
+    "Own",
+    "ChatBot/Flask.md",
+    "ChatBot/AIOGRAM.md",
+    "Cache/API-07_справочник.pdf",
+    "Cache/API-06_new (1).pdf",
+    "Cache/API-05_new (1).pdf",
+    "API-09_Справочник.pdf",
     "Excalidraw/Drawing 2025-03-16 13.21.59.excalidraw.md",
     "Комбинаторика",
     "ProgrammingSummaries/Теория чисел/Быстрое возведение в степень.md",
@@ -337,17 +334,11 @@
     "ProgrammingSummaries/Геометрия/Вектор.md",
     "geogebra-export.svg",
     "ProgrammingSummaries/Графы/Задача о паросочетании в двудольном графе.md",
-    "Seti",
     "Pasted image 20250204191334.png",
     "Безымянная Kanban-доска.md",
     "README.md",
     "Excalidraw/Drawing 2025-02-02 14.23.05.excalidraw.md",
-    "conflict-files-obsidian-git.md",
-    "demo.txt",
     "ChatBot/Введение.md",
-    "ChatBot",
-    "Cache/ExampleEasy.html",
-    "Cache/ExampleBest.html",
     "Excalidraw/Drawing 2025-02-02 14.23.12.excalidraw.md",
     "ProgrammingSummaries/Графы/Без названия.canvas",
     "Графы.md"
