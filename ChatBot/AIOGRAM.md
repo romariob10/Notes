@@ -4,6 +4,7 @@
 ![[API-05_new (1).pdf]]
 ![[API-06_new (1).pdf]]
 ![[API-07_справочник.pdf]]
+![[API-09_Справочник.pdf]]
 ## Установка библиотек
 
 ``` bash  
@@ -32,11 +33,12 @@ async def nameOfFunction(message): #Название функци не на чт
 ```
 #### Результат выполнения:
 *user >>>* $Привет,\,я\,user$
-**bot >>>** $Привет,\,я\,user$
+**bot >>>** Привет, я user
 *user >>>* $Туц\,туц\,туц$
-**bot >>>** $Туц\,туц\,туц$
+**bot >>>** Туц туц туц
+
 ---
-## Обработка фильтров
+## Фильтры
 
 ### Обработка команд (начинающиеся на /)
 ```Python
@@ -77,7 +79,7 @@ async def nameOfFunction(message):
 ```F.text.endswith('Что тебе необходимо')```
 
 Это означает *ИНВЕРТИРОВАНИЕ* результата операции с помощью побитового отрицания ~.
-```~(F.text == 'HeHe)``` то же самое, что и ```F.text != 'HeHe```
+```~(F.text == 'HeHe')``` то же самое, что и ```F.text != 'HeHe'```
 
 ### Фильтр команды, такие как /help, /start или /info
 ``` Python
@@ -176,5 +178,185 @@ keyboard = kb.as_markup()
 kb.as_markup(resize_keyboard=True)
 ```
 
-## Инлайн-кнопки
+## Инлайн-кнопки 
+Та же кнопочная клавиатура, но есть свои особенности. 
 
+```ReplyKeyboardBuilder``` $->$ ```InlineKeyboardBuilder``` 
+```KeyboardButton``` $->$ ```InlineKeyboardButton``` 
+
+Также появляется новое поле ```callback_data```, куда можно положить текст, который вернется при нажатии на кнопку. 
+
+```Python 
+@dp.message(Command("start")) 
+async def start_message(message): 
+	kb = InlineKeyboardBuilder() 
+	kb.add(InlineKeyboardButton(text="Нравится", callback_data="+")) 
+	kb.add(InlineKeyboardButton(text="Не нравится", callback_data="-")) 
+	kb.adjust(2) keyboard = kb.as_markup(resize_keyboard=True) 
+	await bot.send_message(message.chat.id, 'текст сообщения', reply_markup=keyboard) 
+``` 
+
+### Действия на кнопки 
+Коллбеки обрабатываются методом ```@dp.callback_query()```, фильтры можно писать аналогично обработчику $message$. В качестве аргумента приходит объект ```CallbackQuery``` с информацией о коллбэке. 
+
+```Python 
+@dp.callback_query(F.data == "+") 
+async def callback_plus(callback: CallbackQuery): 
+	global haiku_score haiku_score += 1 
+	await callback.answer("Отзыв записан") @dp.callback_query(F.data == "-") 
+	async def callback_minus(callback: CallbackQuery): 
+	global haiku_score haiku_score -= 1 
+	await callback.answer("Отзыв записан") 
+``` 
+
+## CallbackData 
+#### Создадим свой класс для удобной работы с коллбеками 
+
+Мы будем использовать объект, который унаследован от ```CallbackData```. 
+
+```prefix``` — это уникальный идентификатор, который используется для различения различных типов коллбеков. 
+```action``` — это параметр, который указывает на конкретное действие, связанное с коллбеком. 
+
+```Python 
+class YourCallbackData(CallbackData, prefix="YourPrefix"):
+	your_index: int # индекс 
+	action: int # 1 или -1 в зависимости от кнопки 
+``` 
+
+В примере префикс задается как ```prefix="YourPrefix"```, что означает, что все коллбеки, созданные с использованием этого класса, будут начинаться с "YourPrefix", например, `YourPrefix:1` или `YourPrefix:-1`. 
+
+В примере ```action``` может принимать значения $1$ или $-1$. Это позволяет нам легко обрабатывать различные действия в зависимости от того, какая кнопка была нажата.
+
+##### Пример использования YourCallbackData Чтобы использовать класс `YourCallbackData`, вам нужно создать коллбеки и обработчики. Например: 
+
+```Python 
+callback_data_increase = YourCallbackData(your_index=1, action=1) 
+callback_data_decrease = YourCallbackData(your_index=1, action=-1) 
+
+@dp.callback_query_handler(YourCallbackData.filter()) 
+async def process_callback(callback_query: CallbackQuery, callback_data: dict): 
+	index = callback_data['your_index'] 
+	action = int(callback_data['action']) 
+	
+	if action == 1: 
+		await callback_query.answer("Увеличиваем значение!") 
+	elif action == -1: 
+		await callback_query.answer("Уменьшаем значение!") 
+``` 
+
+##### Создание инлайн-кнопок с использованием YourCallbackData 
+
+Вы можете создать инлайн-кнопки, которые будут использовать ваши коллбеки: 
+
+```Python
+kb.add(InlineKeyboardButton(text="Увеличить", callback_data=YourCallbackData(your_index=index, action=1).pack())) 
+kb.add(InlineKeyboardButton(text="Уменьшить", callback_data=YourCallbackData(your_index=index, action=-1).pack())) 
+``` 
+
+Теперь, когда пользователь нажимает на кнопки "Увеличить" или "Уменьшить", ваш бот будет обрабатывать соответствующие коллбеки и выполнять нужные действия.
+
+---
+
+## Состояния ботов
+
+### Палитра команд
+- `state.set_state()` — устанавливает текущее состояние.
+- `state.update_data()` — сохраняет данные.
+- `state.get_data()` — извлекает данные.
+- `state.clear()` — завершает состояние.
+- `StateFilter(None)` — реагирует на пользователей из вне
+
+### Введение
+
+Состояния позволяют управлять последовательностью действий пользователя, сохраняя данные между этапами. Это удобно, например, при создании анкет, опросов или оформления заказов.
+
+### Определение состояний
+
+Состояния управляется с помощью **StatesGroup**, который определяет набор возможных состояний.
+
+```Python
+from aiogram.fsm.state import State, StatesGroup
+
+class AnketaStates(StatesGroup):  
+    name = State()  
+    surname = State()  
+    birthday = State()
+```
+
+В этом примере создается три состояния: ввод имени, фамилии и года рождения.
+
+### Установка состояния
+
+При запуске анкеты необходимо установить пользователю первое состояние:
+
+```Python
+from aiogram.fsm.context import FSMContext
+
+@dp.message(Command("start"))
+async def start_command(msg: Message, state: FSMContext):
+    await state.set_state(AnketaStates.name)
+    await msg.answer("Напишите ваше имя")
+```
+
+Здесь команда `/start` переводит пользователя в состояние **AnketaStates.name**.
+
+### Обработчики состояний
+
+Для обработки сообщений в конкретном состоянии используются фильтры состояний.
+
+```Python
+@dp.message(AnketaStates.name)
+async def process_name(msg: Message, state: FSMContext):
+    await state.update_data(first_name=msg.text)
+    await state.set_state(AnketaStates.surname)
+    await msg.answer("Напишите свою фамилию")
+```
+
+`state.update_data(first_name=msg.text)` — сохраняет данные в текущем состоянии.
+`state.set_state(AnketaStates.surname)` — переводит пользователя на следующий шаг.
+
+### Завершение состояния
+
+Когда пользователь ввел все данные, их можно извлечь и очистить состояние.
+
+```Python
+@dp.message(AnketaStates.birthday)
+async def process_birthday(msg: Message, state: FSMContext):
+    await state.update_data(birthday=msg.text)
+    data = await state.get_data()
+
+    await msg.answer(
+        f"Ваши данные:\nИмя: {data['first_name']}\nФамилия: {data['surname']}\nГод рождения: {data['birthday']}"
+    )
+    
+    await state.clear()  # Очистка состояния
+```
+
+### Отмена процесса
+
+Для выхода из любого состояния можно использовать команду `/cancel`.
+
+```Python
+from aiogram.filters import Command
+
+@dp.message(Command("cancel"))
+async def cancel_handler(msg: Message, state: FSMContext):
+    await state.clear()
+    await msg.answer("Анкета отменена")
+```
+
+Команда `/cancel` очищает состояние и возвращает пользователя в обычный режим.
+
+### Фильтр по состоянию
+
+Если бот должен реагировать только на пользователей, находящихся **вне состояний**, используется `StateFilter(None)`.
+
+```Python
+from aiogram.filters import StateFilter
+
+@dp.message(StateFilter(None))
+async def handle_default(msg: Message):
+    await msg.answer("Чтобы пройти анкету, напишите /start")
+```
+
+Это позволяет игнорировать случайные сообщения от пользователей, которые не находятся в процессе заполнения анкеты.
