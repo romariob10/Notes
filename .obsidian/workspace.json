@@ -6,79 +6,72 @@
       {
         "id": "d0d1d294b5494799",
         "type": "tabs",
+        "dimension": 57.608695652173914,
         "children": [
           {
-            "id": "74ea56bb394d32f6",
+            "id": "b13d09d94cd70286",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgrammingSummaries/Тернарный (троичный) поиск.md",
+                "file": "ProgrammingSummaries/Корневая декомпозиция.md",
                 "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Тернарный (троичный) поиск"
+              "title": "Корневая декомпозиция"
+            }
+          },
+          {
+            "id": "c54e1f17ef93d895",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LaTex/LaTex. Начало.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "LaTex. Начало"
             }
           }
         ]
       },
       {
-        "id": "b0bcadd7456bc243",
+        "id": "379269189b6cd52e",
         "type": "tabs",
+        "dimension": 42.391304347826086,
         "children": [
           {
-            "id": "5357dad083a805c1",
+            "id": "585a2addf22c62c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgrammingSummaries/Теория чисел/Быстрое возведение в степень.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Быстрое возведение в степень"
-            }
-          },
-          {
-            "id": "ba6c1130e32366bd",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.9"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
-            }
-          },
-          {
-            "id": "9fc1718a00a69ef9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgrammingSummaries/Тернарный (троичный) поиск.md",
+                "file": "ProgrammingSummaries/Корневая декомпозиция.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Тернарный (троичный) поиск"
+              "title": "Корневая декомпозиция"
+            }
+          },
+          {
+            "id": "45e53641440c1053",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LaTex/LaTex. Начало.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "LaTex. Начало"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -301,32 +294,36 @@
       "juggl:Juggl global graph": false,
       "remotely-save:Remotely Save": false,
       "obsidian-kanban:Создать новую доску": false,
-      "obsidian-excalidraw-plugin:Создать новый чертеж": false
+      "obsidian-excalidraw-plugin:Создать новый чертеж": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "74ea56bb394d32f6",
+  "active": "585a2addf22c62c5",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "LaTex/LaTex. Начало.md",
+    "ProgrammingSummaries/Корневая декомпозиция.md",
     "ProgrammingSummaries/Тернарный (троичный) поиск.md",
-    "Own/Без названия.md",
-    "Own",
-    "ChatBot/Flask.md",
-    "ChatBot/AIOGRAM.md",
-    "Cache/API-07_справочник.pdf",
-    "Cache/API-06_new (1).pdf",
     "Cache/API-05_new (1).pdf",
-    "API-09_Справочник.pdf",
+    "LaTex",
+    "Cache/API-06_new (1).pdf",
+    "ChatBot/Flask.md",
+    "ChatBot/Введение.md",
+    "ChatBot/AIOGRAM.md",
+    "Excalidraw/Drawing 2025-03-15 17.00.20.excalidraw.md",
     "Excalidraw/Drawing 2025-03-16 13.21.59.excalidraw.md",
+    "Own/Без названия.md",
+    "~$мминг - инструкция.docx",
+    "conflict-files-obsidian-git.md",
+    "Own",
+    "Cache/API-07_справочник.pdf",
+    "Cache/API-09_Справочник.pdf",
     "Комбинаторика",
     "ProgrammingSummaries/Теория чисел/Быстрое возведение в степень.md",
     "ProgrammingSummaries/Теория чисел/Остатки.md",
-    "Excalidraw/Drawing 2025-03-15 17.00.20.excalidraw.md",
     "Seti/Шифрование.md",
     "ProgrammingSummaries/Теория чисел",
     "Excalidraw",
     "Seti/Функциональное кодирование информации. Методы защиты целостности информации.md",
-    "~$мминг - инструкция.docx",
-    "Хемминг - инструкция.docx",
     "Seti/Методы кодирования информации.md",
     "ProgrammingSummaries/Геометрия/Многоугольники. Поиск выпуклой оболочки - алгоритм Грэхема.md",
     "ProgrammingSummaries/Геометрия/Окружность. Задачт.md",
@@ -338,7 +335,6 @@
     "Безымянная Kanban-доска.md",
     "README.md",
     "Excalidraw/Drawing 2025-02-02 14.23.05.excalidraw.md",
-    "ChatBot/Введение.md",
     "Excalidraw/Drawing 2025-02-02 14.23.12.excalidraw.md",
     "ProgrammingSummaries/Графы/Без названия.canvas",
     "Графы.md"

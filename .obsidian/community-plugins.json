@@ -14,5 +14,13 @@
   "obsidian-charts",
   "obsidian-desmos",
   "obsidian-custom-frames",
-  "convert-url-to-iframe"
+  "convert-url-to-iframe",
+  "obsidian-tikzjax",
+  "obsidian-completr",
+  "pseudocode-in-obs",
+  "table-editor-obsidian",
+  "obsidian-excel-to-markdown-table",
+  "table-extended",
+  "obsidian-table-generator",
+  "sheets"
 ]
