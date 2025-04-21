@@ -22,5 +22,9 @@
   "obsidian-excel-to-markdown-table",
   "table-extended",
   "obsidian-table-generator",
-  "sheets"
+  "sheets",
+  "obsidian-advanced-slides",
+  "any-block",
+  "dataview",
+  "graph-analysis"
 ]

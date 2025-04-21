@@ -6,19 +6,41 @@
       {
         "id": "d0d1d294b5494799",
         "type": "tabs",
+        "dimension": 49.836867862969,
         "children": [
           {
-            "id": "8245689b30d9e9bb",
+            "id": "76c1061db326a1e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Презентация.md",
+                "file": "ProgrammingSummaries/Sparce table (Разреженные таблицы).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Презентация"
+              "title": "Sparce table (Разреженные таблицы)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "4f19f3afef68b698",
+        "type": "tabs",
+        "dimension": 50.163132137031,
+        "children": [
+          {
+            "id": "1590134a203ebad4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ProgrammingSummaries/Sparce table (Разреженные таблицы).md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sparce table (Разреженные таблицы)"
             }
           }
         ]
@@ -140,7 +162,7 @@
               "type": "juggl_nodes",
               "state": {},
               "icon": "lucide-file",
-              "title": "Плагин больше не активен"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -150,7 +172,7 @@
               "type": "juggl_style",
               "state": {},
               "icon": "lucide-file",
-              "title": "Плагин больше не активен"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -175,7 +197,7 @@
               "type": "calendar",
               "state": {},
               "icon": "lucide-file",
-              "title": "Плагин больше не активен"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -184,8 +206,8 @@
             "state": {
               "type": "juggl_nodes",
               "state": {},
-              "icon": "ag-node-list",
-              "title": "Juggl nodes"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -194,8 +216,8 @@
             "state": {
               "type": "juggl_style",
               "state": {},
-              "icon": "ag-style",
-              "title": "Juggl style"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -204,8 +226,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -221,9 +243,59 @@
               "icon": "lucide-archive",
               "title": "Все свойства"
             }
+          },
+          {
+            "id": "db79012a5cf12d78",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "ag-node-list",
+              "title": "Juggl nodes"
+            }
+          },
+          {
+            "id": "48805efa35f712d9",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "ag-style",
+              "title": "Juggl style"
+            }
+          },
+          {
+            "id": "e13be74c5937fdba",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "43dc5e6ee45d9ee1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "4a9557272b52e742",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 15
       }
     ],
     "direction": "horizontal",
@@ -232,8 +304,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "audio-recorder:Начать/остановить запись": false,
-      "obsidian-git:Open Git source control": false,
       "switcher:Меню быстрого перехода": false,
       "graph:Граф": false,
       "canvas:Создать новый холст": false,
@@ -241,17 +311,21 @@
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
       "markdown-importer:Импорт Markdown-файлов": false,
-      "juggl:Juggl global graph": false,
-      "remotely-save:Remotely Save": false,
+      "audio-recorder:Начать/остановить запись": false,
       "obsidian-kanban:Создать новую доску": false,
       "obsidian-excalidraw-plugin:Создать новый чертеж": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "juggl:Juggl global graph": false,
+      "remotely-save:Remotely Save": false,
+      "obsidian-git:Open Git source control": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "8245689b30d9e9bb",
+  "active": "4a9557272b52e742",
   "lastOpenFiles": [
-    "Без названия.md",
     "Презентация.md",
+    "ProgrammingSummaries/Sparce table (Разреженные таблицы).md",
+    "Без названия.md",
     "ProgrammingSummaries/Корневая декомпозиция.md",
     "LaTex/LaTex. Начало.md",
     "ProgrammingSummaries/Тернарный (троичный) поиск.md",
@@ -287,7 +361,6 @@
     "Безымянная Kanban-доска.md",
     "README.md",
     "Excalidraw/Drawing 2025-02-02 14.23.05.excalidraw.md",
-    "Excalidraw/Drawing 2025-02-02 14.23.12.excalidraw.md",
     "ProgrammingSummaries/Графы/Без названия.canvas"
   ]
 }
