@@ -112,6 +112,7 @@ PQh
 PSEY
 PUY
 PHuR
+PowerPoint
 obj
 oo
 oR
@@ -1549,6 +1550,7 @@ Lf
 LI
 LdR
 LtJtntYt
+LibreOffice
 stream
 sz
 sF
@@ -2488,6 +2490,7 @@ XXZ
 XONbO
 Xbw
 XLp
+XIX
 fj
 fn
 fy
@@ -2800,6 +2803,7 @@ IvB
 IuLuK
 IfX
 Info
+Impress
 true
 tj
 tz

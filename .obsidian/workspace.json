@@ -6,7 +6,6 @@
       {
         "id": "d0d1d294b5494799",
         "type": "tabs",
-        "dimension": 49.836867862969,
         "children": [
           {
             "id": "76c1061db326a1e4",
@@ -21,26 +20,66 @@
               "icon": "lucide-file",
               "title": "Sparce table (Разреженные таблицы)"
             }
-          }
-        ]
-      },
-      {
-        "id": "4f19f3afef68b698",
-        "type": "tabs",
-        "dimension": 50.163132137031,
-        "children": [
+          },
           {
-            "id": "1590134a203ebad4",
+            "id": "70f0eb5f1f257930",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgrammingSummaries/Sparce table (Разреженные таблицы).md",
-                "mode": "preview",
+                "file": "Цели на лето.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sparce table (Разреженные таблицы)"
+              "title": "Цели на лето"
+            }
+          },
+          {
+            "id": "8a3dd48e418c0bcd",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
+          },
+          {
+            "id": "2b72631311a934ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Без названия.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Без названия"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "14c3297cf1c35f69",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79993f4b2388b394",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Без названия.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Без названия"
             }
           }
         ]
@@ -288,6 +327,36 @@
             "id": "4a9557272b52e742",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "7cb8d70d08d72ec6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "ee2693b8133cfe57",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "e05f42cc780f2fbf",
+            "type": "leaf",
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -295,7 +364,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 18
       }
     ],
     "direction": "horizontal",
@@ -321,11 +390,12 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "4a9557272b52e742",
+  "active": "79993f4b2388b394",
   "lastOpenFiles": [
-    "Презентация.md",
-    "ProgrammingSummaries/Sparce table (Разреженные таблицы).md",
     "Без названия.md",
+    "ProgrammingSummaries/Sparce table (Разреженные таблицы).md",
+    "Цели на лето.md",
+    "Презентация.md",
     "ProgrammingSummaries/Корневая декомпозиция.md",
     "LaTex/LaTex. Начало.md",
     "ProgrammingSummaries/Тернарный (троичный) поиск.md",
@@ -360,7 +430,6 @@
     "Pasted image 20250204191334.png",
     "Безымянная Kanban-доска.md",
     "README.md",
-    "Excalidraw/Drawing 2025-02-02 14.23.05.excalidraw.md",
     "ProgrammingSummaries/Графы/Без названия.canvas"
   ]
 }
