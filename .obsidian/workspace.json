@@ -4,85 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "d0d1d294b5494799",
+        "id": "07ac389186fa71ef",
         "type": "tabs",
         "children": [
           {
-            "id": "76c1061db326a1e4",
+            "id": "dd464b9566eca1e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgrammingSummaries/Sparce table (Разреженные таблицы).md",
+                "file": "Django/Начало работы.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sparce table (Разреженные таблицы)"
+              "title": "Начало работы"
             }
           },
           {
-            "id": "70f0eb5f1f257930",
+            "id": "8c82045e80afca71",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Цели на лето.md",
+                "file": "Django/seting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Цели на лето"
-            }
-          },
-          {
-            "id": "8a3dd48e418c0bcd",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
-            }
-          },
-          {
-            "id": "2b72631311a934ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Без названия.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Без названия"
+              "title": "seting"
             }
           }
         ],
-        "currentTab": 3
-      },
-      {
-        "id": "14c3297cf1c35f69",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "79993f4b2388b394",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Без названия.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Без названия"
-            }
-          }
-        ]
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgrammingSummaries/Графы/Задача о паросочетании в двудольном графе.md",
+                "file": "План рассказа РРО ИИ МО.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Задача о паросочетании в двудольном графе"
+              "title": "Обратные ссылки для План рассказа РРО ИИ МО"
             }
           },
           {
@@ -357,6 +311,26 @@
             "id": "e05f42cc780f2fbf",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "1cf08faa2118cfe1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "8541053343fa49b7",
+            "type": "leaf",
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -364,12 +338,11 @@
             }
           }
         ],
-        "currentTab": 18
+        "currentTab": 20
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -390,13 +363,29 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "79993f4b2388b394",
+  "active": "8c82045e80afca71",
   "lastOpenFiles": [
+    "Django/Начало работы.md",
+    "Django/seting.md",
+    "Django/manage.py.md",
+    "Django/Django.md",
     "Без названия.md",
-    "ProgrammingSummaries/Sparce table (Разреженные таблицы).md",
+    "Django/Виртуальное окружение.md",
+    "Django",
+    "Game/Идея.md",
+    "О проекте.md",
+    "План рассказа РРО ИИ МО.md",
     "Цели на лето.md",
-    "Презентация.md",
+    "~$мминг - инструкция.docx",
+    "ProgrammingSummaries/ДП по цифрам.md",
+    "Без названия.canvas",
+    "ProgrammingSummaries/Sparce table (Разреженные таблицы).md",
     "ProgrammingSummaries/Корневая декомпозиция.md",
+    "ProgrammingSummaries/Графы/Задача о паросочетании в двудольном графе.md",
+    "ProgrammingSummaries/Геометрия/Многоугольники. Поиск выпуклой оболочки - алгоритм Грэхема.md",
+    "ProgrammingSummaries/Геометрия/Вектор.md",
+    "Game",
+    "Презентация.md",
     "LaTex/LaTex. Начало.md",
     "ProgrammingSummaries/Тернарный (троичный) поиск.md",
     "Cache/API-05_new (1).pdf",
@@ -408,28 +397,13 @@
     "Excalidraw/Drawing 2025-03-15 17.00.20.excalidraw.md",
     "Excalidraw/Drawing 2025-03-16 13.21.59.excalidraw.md",
     "Own/Без названия.md",
-    "~$мминг - инструкция.docx",
     "conflict-files-obsidian-git.md",
     "Own",
     "Cache/API-07_справочник.pdf",
     "Cache/API-09_Справочник.pdf",
     "Комбинаторика",
-    "ProgrammingSummaries/Теория чисел/Быстрое возведение в степень.md",
-    "ProgrammingSummaries/Теория чисел/Остатки.md",
-    "Seti/Шифрование.md",
-    "ProgrammingSummaries/Теория чисел",
-    "Excalidraw",
-    "Seti/Функциональное кодирование информации. Методы защиты целостности информации.md",
-    "Seti/Методы кодирования информации.md",
-    "ProgrammingSummaries/Геометрия/Многоугольники. Поиск выпуклой оболочки - алгоритм Грэхема.md",
-    "ProgrammingSummaries/Геометрия/Окружность. Задачт.md",
-    "ProgrammingSummaries/Геометрия/Геометрия окружностей.md",
-    "ProgrammingSummaries/Геометрия/Вектор.md",
     "geogebra-export.svg",
-    "ProgrammingSummaries/Графы/Задача о паросочетании в двудольном графе.md",
     "Pasted image 20250204191334.png",
-    "Безымянная Kanban-доска.md",
-    "README.md",
     "ProgrammingSummaries/Графы/Без названия.canvas"
   ]
 }
