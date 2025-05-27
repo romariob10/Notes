@@ -1712,6 +1712,7 @@ sVW
 startxref
 src
 style
+solid
 YT
 YY
 YtQ
@@ -1998,6 +1999,7 @@ cOV
 cFeO
 cncC
 cBt
+ccc
 gt
 gO
 gVX
@@ -2642,6 +2644,7 @@ fUo
 fJFK
 float
 fullscreen
+frameborder
 hC
 hU
 hf
@@ -3478,6 +3481,7 @@ bOB
 baA
 bQJBa
 blocks
+border
 aq
 aE
 assi
