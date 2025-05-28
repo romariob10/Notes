@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "07ac389186fa71ef",
+        "id": "bc7a3d14d98974d7",
         "type": "tabs",
         "children": [
           {
-            "id": "dd464b9566eca1e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Django/Начало работы.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Начало работы"
-            }
-          },
-          {
-            "id": "3b6d73d4bd859676",
+            "id": "f44c1e8c8a122b30",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,37 +20,8 @@
               "icon": "lucide-file",
               "title": "Jinja"
             }
-          },
-          {
-            "id": "e150756234dd2dcc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Django/Внешний вид/views.py.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "views.py"
-            }
-          },
-          {
-            "id": "76d368c3ac9fd7e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Django/urls.py.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "urls.py"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -391,14 +348,20 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "3b6d73d4bd859676",
+  "active": "f44c1e8c8a122b30",
   "lastOpenFiles": [
-    "Django/Начало работы.md",
+    "Django/Внешний вид/views.py.md",
+    "Django/Внешний вид/HTML + CSS.md",
+    "Game/Идея.md",
+    "LaTex/LaTex. Начало.md",
+    "AIOGRAM.md",
+    "Без названия.md",
+    "ChatBot/Введение.md",
+    "ChatBot/Flask.md",
     "Django/Внешний вид/Jinja.md",
+    "Django/Начало работы.md",
     "Django/Без названия.md",
     "Django/Внешний вид",
-    "Django/Внешний вид/HTML + CSS.md",
-    "Django/Внешний вид/views.py.md",
     "Django/Создание приложений.md",
     "Django/urls.py.md",
     "Django/settings.py.md",
@@ -416,13 +379,7 @@
     "ProgrammingSummaries/Теория чисел/Остатки.md",
     "ProgrammingSummaries/Sparce table (Разреженные таблицы).md",
     "ProgrammingSummaries/Тернарный (троичный) поиск.md",
-    "ProgrammingSummaries/Корневая декомпозиция.md",
-    "ProgrammingSummaries/ДП по цифрам.md",
-    "Без названия.md",
-    "Django/Виртуальное окружение.md",
     "Django",
-    "Game/Идея.md",
-    "О проекте.md",
     "~$мминг - инструкция.docx",
     "Без названия.canvas",
     "Game",

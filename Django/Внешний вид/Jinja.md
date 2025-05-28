@@ -61,3 +61,39 @@ urlpatterns = [
 {% url 'mainpage' %}
 ```
 
+## 6. Передача данных в HTML из render
+
+На данный момент вывод HTML страниц выглядит так:
+``` Python
+def index(request):
+	return render(request, 'main/index.html')
+```
+
+Но как передать из render данные в HTML?
+Для этого необходимо, как следующий параметр предать словарь
+
+Пример:
+``` Python
+def index(request):
+	return render(request, 'main/index.html', {"title" : "Главная страница"})
+```
+
+Для получения данных мы пишем
+``` HTML
+{{ title }}
+```
+
+## 7.  Перебор значений
+
+В случае если мы попробуем вывести массив, у нас выведится `['v1', 'v2', 'v3]`.  Для перебора значений используется синтаксис, схожий с Python:
+``` HTML
+{% for vul in values %}
+<li> {{vul}} <\li>
+{% endfor %}
+```
+
+## 8. Получение значения словаря по ключу
+
+``` HTML
+{{ dict.key }}
+```
