@@ -453,6 +453,7 @@ Coral
 Cache
 CIAV
 Cku
+CSRF
 Names
 Nums
 NoKYX
@@ -709,6 +710,7 @@ OpenCV
 Operating
 Obsidian
 OxWw
+ORM
 endobj
 eA
 eoy
@@ -1512,6 +1514,7 @@ FPSA
 Foe
 FPS
 FCRN
+False
 Length
 Lc
 LS
@@ -3221,6 +3224,8 @@ HJH
 HDF
 HEAD
 HGg
+HTTP
+HTML
 BitsPerComponent
 BQKE
 BQ
@@ -3430,6 +3435,7 @@ JDb
 Java
 Jetson
 JBt
+JSON
 br
 be
 bH
@@ -4169,6 +4175,7 @@ UJ
 UcN
 UpSampling
 Users
+URL
 ZJ
 ZC
 Zb

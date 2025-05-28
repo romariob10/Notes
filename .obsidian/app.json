@@ -8,5 +8,7 @@
   },
   "showLineNumber": false,
   "alwaysUpdateLinks": true,
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "Cache"
 }
