@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "fd15c40ec5c5d4ad",
+        "id": "5290b7bef9172a11",
         "type": "tabs",
         "children": [
           {
-            "id": "55207f1c24b11761",
+            "id": "acb4e7bb15892443",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Django/Панель администратора.md",
+                "file": "ProgrammingSummaries/СНМ.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Панель администратора"
+              "title": "СНМ"
+            }
+          },
+          {
+            "id": "aa1e4cb3a60c9e49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ProgrammingSummaries/Минимальные остовы.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Минимальные остовы"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,26 +149,6 @@
             }
           },
           {
-            "id": "c329760c400e27b8",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_nodes",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "399e746a643560a3",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
             "id": "5e3456d89ec3935b",
             "type": "leaf",
             "state": {
@@ -179,36 +174,6 @@
             }
           },
           {
-            "id": "d344378c4b5d6bc7",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_nodes",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "5ddaedb6190d8a45",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "ee27806f6d328f64",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
             "id": "b85dc52aab2bade1",
             "type": "leaf",
             "state": {
@@ -220,26 +185,6 @@
               },
               "icon": "lucide-archive",
               "title": "Все свойства"
-            }
-          },
-          {
-            "id": "db79012a5cf12d78",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_nodes",
-              "state": {},
-              "icon": "ag-node-list",
-              "title": "Juggl nodes"
-            }
-          },
-          {
-            "id": "48805efa35f712d9",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {},
-              "icon": "ag-style",
-              "title": "Juggl style"
             }
           },
           {
@@ -316,6 +261,46 @@
             "id": "8541053343fa49b7",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "916472b7085f44a7",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "5d2e7a27559a2305",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "d68da31f6465e84e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "f237f9f9c07ce83c",
+            "type": "leaf",
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -323,14 +308,16 @@
             }
           }
         ],
-        "currentTab": 20
+        "currentTab": 17
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Создать новую базу": false,
       "switcher:Меню быстрого перехода": false,
       "graph:Граф": false,
       "canvas:Создать новый холст": false,
@@ -348,46 +335,49 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "55207f1c24b11761",
+  "active": "aa1e4cb3a60c9e49",
   "lastOpenFiles": [
-    "Django/Начало работы.md",
-    "Django/Виртуальное окружение.md",
-    "Django/Миграции.md",
-    "Django/Создание приложений.md",
-    "Django/Панель администратора.md",
-    "Django/urls.py.md",
+    "ProgrammingSummaries/СНМ.md",
+    "ProgrammingSummaries/Минимальные остовы.md",
+    "ProgrammingSummaries/Тернарный (троичный) поиск.md",
+    "ProgrammingSummaries/Безымянная Kanban-доска.md",
+    "Без названия 1.md",
+    "Безымянная Kanban-доска.md",
     "Без названия.md",
-    "Django/models.py.md",
-    "Django/Внешний вид/views.py.md",
-    "Django/Внешний вид/Jinja.md",
-    "Django/Внешний вид/Jinja filters.md",
-    "Django/Внешний вид/HTML + CSS.md",
-    "Game/Идея.md",
-    "LaTex/LaTex. Начало.md",
+    "ProgrammingSummaries/Геометрия/Геометрия окружностей.md",
+    "ProgrammingSummaries/Геометрия/Без названия.md",
+    "ProgrammingSummaries/Геометрия/Вектор.md",
+    "ProgrammingSummaries/Геометрия/Многоугольники. Поиск выпуклой оболочки - алгоритм Грэхема.md",
     "AIOGRAM.md",
-    "ChatBot/Введение.md",
-    "ChatBot/Flask.md",
-    "Django/Внешний вид",
-    "Django/settings.py.md",
+    "Django/Виртуальное окружение.md",
+    "ProgrammingSummaries/Графы/LCA.md",
+    "ProgrammingSummaries/Типы данных/ДО.md",
+    "ProgrammingSummaries/Canvas cache/ДО.canvas",
+    "ProgrammingSummaries/Canvas cache/НОП.canvas",
+    "Cache/API-05_new (1).pdf",
+    "ProgrammingSummaries/Сканлайн.md",
+    "ProgrammingSummaries/Canvas cache/Сканлайн.canvas",
+    "ProgrammingSummaries/Типы данных/Корневая декомпозиция.md",
+    "ProgrammingSummaries/Типы данных/Sparce table (Разреженные таблицы).md",
+    "ProgrammingSummaries/Динамическое программирование/Безымянная Kanban-доска.md",
+    "ProgrammingSummaries/Динамическое программирование/НОП.md",
+    "ProgrammingSummaries/Теория чисел/Остатки.md",
+    "ProgrammingSummaries/Canvas cache",
+    "ProgrammingSummaries/Динамическое программирование/ДП по цифрам.md",
+    "ProgrammingSummaries/Типы данных",
+    "ProgrammingSummaries/Динамическое программирование",
+    "ProgrammingSummaries/Летний интенсив/Без названия 2.md",
     "ProgrammingSummaries/Теория чисел/Быстрое возведение в степень.md",
+    "ProgrammingSummaries/Летний интенсив",
+    "Excalidraw/Drawing 2025-06-25 16.25.58.excalidraw.md",
+    "Excalidraw",
+    "Django/Начало работы.md",
+    "Django/Внешний вид",
     "Cache/Снимок экрана 2025-05-27 в 23.06.21.png",
     "Cache/Снимок экрана 2025-05-27 в 22.51.49.png",
-    "Django/Django.md",
-    "Django/manage.py.md",
-    "ProgrammingSummaries/Геометрия/Окружность. Задачт.md",
-    "ProgrammingSummaries/Геометрия/Многоугольники. Поиск выпуклой оболочки - алгоритм Грэхема.md",
-    "ProgrammingSummaries/Геометрия/Геометрия окружностей.md",
-    "ProgrammingSummaries/Геометрия/Вектор.md",
     "Django",
     "~$мминг - инструкция.docx",
-    "Без названия.canvas",
     "Game",
-    "Cache/API-05_new (1).pdf",
-    "LaTex",
-    "Cache/API-06_new (1).pdf",
-    "Own",
-    "Cache/API-07_справочник.pdf",
-    "Cache/API-09_Справочник.pdf",
     "geogebra-export.svg",
     "Pasted image 20250204191334.png",
     "ProgrammingSummaries/Графы/Без названия.canvas"
