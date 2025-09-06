@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgrammingSummaries/Минимальные остовы.md",
+                "file": "Django/Виртуальное окружение.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Минимальные остовы"
+              "title": "Виртуальное окружение"
             }
           }
         ],
@@ -301,6 +301,16 @@
             "id": "f237f9f9c07ce83c",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "040c813046b9efdb",
+            "type": "leaf",
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -308,7 +318,7 @@
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 18
       }
     ],
     "direction": "horizontal",
@@ -326,19 +336,15 @@
       "command-palette:Открыть палитру команд": false,
       "markdown-importer:Импорт Markdown-файлов": false,
       "audio-recorder:Начать/остановить запись": false,
-      "obsidian-kanban:Создать новую доску": false,
       "obsidian-excalidraw-plugin:Создать новый чертеж": false,
-      "juggl:Juggl global graph": false,
-      "remotely-save:Remotely Save": false,
-      "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "aa1e4cb3a60c9e49",
+  "active": "fe3b0309bb3ab723",
   "lastOpenFiles": [
-    "ProgrammingSummaries/СНМ.md",
     "ProgrammingSummaries/Минимальные остовы.md",
+    "ProgrammingSummaries/СНМ.md",
     "ProgrammingSummaries/Тернарный (троичный) поиск.md",
     "ProgrammingSummaries/Безымянная Kanban-доска.md",
     "Без названия 1.md",
