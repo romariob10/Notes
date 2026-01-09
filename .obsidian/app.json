@@ -10,5 +10,6 @@
   "alwaysUpdateLinks": true,
   "showUnsupportedFiles": true,
   "newFileLocation": "current",
-  "attachmentFolderPath": "Cache"
+  "attachmentFolderPath": "Cache",
+  "promptDelete": false
 }

@@ -20,5 +20,7 @@
   "obsidian-advanced-slides",
   "any-block",
   "dataview",
-  "graph-analysis"
+  "graph-analysis",
+  "obsidian-kanban",
+  "obsidian-leaflet-plugin"
 ]
