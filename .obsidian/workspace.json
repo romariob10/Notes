@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5833592f05fdc715",
+        "id": "2e37f29f8301d9da",
         "type": "tabs",
         "children": [
           {
-            "id": "bf56c0d94db73779",
+            "id": "fa9e809f4b8e2d8d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgrammingSummaries/Минимальные остовы.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Минимальные остовы"
+              "title": "Новая вкладка"
             }
           }
         ]
@@ -586,6 +582,196 @@
             "id": "7831fb358525fc65",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "db62bf6b7903b35c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "034a6595a246e9c5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "dbb803a6e28549f9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "9cd126832cd79f98",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "99296f18ebe516b9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "88f6024bc96a8301",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "1da021db015735ee",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "263431dbd5d84ab5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "86a92edce9164364",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "5757f6832e348696",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "df6ef94ef084fb53",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "1b870df1738647b2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "1ad9798785247eeb",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "ead2a9e514a8e94c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "a87f13b564de1579",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "7e29154227cd9963",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "e88c2b514814a83a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "059a71acebc9342e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "20c3590a4879a7d0",
+            "type": "leaf",
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -593,7 +779,7 @@
             }
           }
         ],
-        "currentTab": 47
+        "currentTab": 66
       }
     ],
     "direction": "horizontal",
@@ -618,38 +804,40 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "bf56c0d94db73779",
+  "active": "fa9e809f4b8e2d8d",
   "lastOpenFiles": [
+    "Промышленное программирование/Паттерны проектирования.md",
+    "Промышленное программирование/AIOGRAM.md",
+    "Промышленное программирование/Django/Виртуальное окружение.md",
+    "Промышленное программирование/Чистый код.md",
+    "Без названия.base",
+    "Без названия.md",
+    "Без названия 1.md",
+    "Промышленное программирование/Рефакторинг.md",
+    "Промышленное программирование",
+    "Промышленное программирование/Django/Создание приложений.md",
+    "Cache/Screenshot 2026-02-01 at 2.23.09 PM.png",
+    "Идеи для проектов/AI Search.md",
+    "Cache/Screenshot 2026-02-01 at 2.22.42 PM.png",
+    "Идеи для проектов/YourLab.md",
+    "Идеи для проектов/Безымянная Kanban-доска.md",
+    "ProgrammingSummaries/Теория чисел/Быстрое возведение в степень.md",
+    "Идеи для проектов/Я Турист.md",
+    "Идеи для проектов/ДнД с ИИ.md",
+    "Идеи для проектов/Дизайн.md",
+    "Промышленное программирование/Django/Миграции.md",
+    "Промышленное программирование/Django/Начало работы.md",
+    "Промышленное программирование/Django/Внешний вид/views.py.md",
+    "Промышленное программирование/Django/Внешний вид/Игромир.md",
+    "Промышленное программирование/Django/Внешний вид/Jinja filters.md",
+    "ProgrammingSummaries/Минимальные остовы.md",
     "ProgrammingSummaries/СНМ.md",
     "ProgrammingSummaries/Сканлайн.md",
     "ProgrammingSummaries/Тернарный (троичный) поиск.md",
-    "ProgrammingSummaries/Минимальные остовы.md",
     "ProgrammingSummaries/Типы данных/Sparce table (Разреженные таблицы).md",
-    "ProgrammingSummaries/Типы данных/ДО.md",
-    "ProgrammingSummaries/Теория чисел/Остатки.md",
-    "ProgrammingSummaries/Теория чисел/Быстрое возведение в степень.md",
-    "ProgrammingSummaries/Летний интенсив/Без названия 2.md",
-    "ProgrammingSummaries/Летний интенсив/Без названия.md",
-    "Seti/Шифрование.md",
-    "Seti/Функциональное кодирование информации. Методы защиты целостности информации.md",
-    "Seti/Методы кодирования информации.md",
-    "Team notes/10 Октября.md",
-    "Game/Идея.md",
-    "LaTex/LaTex. Начало.md",
-    "Django/HTMX + Django.md",
-    "tютчев-философия.md",
-    "Без названия 1.md",
-    "Без названия 2.md",
-    "Без названия.md",
-    "Django/Django Auth.md",
-    "Django/Панель администратора.md",
-    "Django/Миграции.md",
-    "Django/Начало работы.md",
-    "Django/Создание приложений.md",
     "ProgrammingSummaries/Canvas cache/Сканлайн.canvas",
     "ProgrammingSummaries/Canvas cache/ДО.canvas",
     "Cache/map_for_site@2x.png",
-    "Без названия.base",
     "AI 25-26",
     "Team notes",
     "Cache/Screenshot 2025-10-11 at 10.38.15 AM.png",
@@ -661,7 +849,6 @@
     "Идеи для проектов",
     "ProgrammingSummaries/Canvas cache/НОП.canvas",
     "Cache/API-05_new (1).pdf",
-    "ProgrammingSummaries/Canvas cache",
     "Cache/Снимок экрана 2025-05-27 в 23.06.21.png",
     "Cache/Снимок экрана 2025-05-27 в 22.51.49.png",
     "geogebra-export.svg",
