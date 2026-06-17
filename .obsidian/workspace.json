@@ -11,13 +11,46 @@
             "id": "fa9e809f4b8e2d8d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Идеи для проектов/Дизайн для Нейроприложений.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "Дизайн для Нейроприложений"
+            }
+          },
+          {
+            "id": "0ba26f91424adbe7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Идеи для проектов/Дизайн альбомы.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Дизайн альбомы"
+            }
+          },
+          {
+            "id": "3fa8e48dbc6e2827",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Идеи для проектов/Дизайн для Нейроприложений.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Дизайн для Нейроприложений"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -40,7 +73,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Файловый менеджер"
+              "title": "Files"
             }
           },
           {
@@ -150,8 +183,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -175,7 +208,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -185,7 +218,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -195,7 +228,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -205,7 +238,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -215,7 +248,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -225,7 +258,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -235,7 +268,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -245,7 +278,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -254,8 +287,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           },
           {
@@ -265,7 +298,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -275,7 +308,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -285,7 +318,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -295,7 +328,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -305,7 +338,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -315,7 +348,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -325,7 +358,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -335,7 +368,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -345,7 +378,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -355,7 +388,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -365,7 +398,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -375,7 +408,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -385,7 +418,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -395,7 +428,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -405,7 +438,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -415,7 +448,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -425,7 +458,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -435,7 +468,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -445,7 +478,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -455,7 +488,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -465,7 +498,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -475,7 +508,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -485,7 +518,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -495,7 +528,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -505,7 +538,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -515,7 +548,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -525,7 +558,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -535,7 +568,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -545,7 +578,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -555,7 +588,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -565,7 +598,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -575,7 +608,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -585,7 +618,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -595,7 +628,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -605,7 +638,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -615,7 +648,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -625,7 +658,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -635,7 +668,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -645,7 +678,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -655,7 +688,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -665,7 +698,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -675,7 +708,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -685,7 +718,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -695,7 +728,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -705,7 +738,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -715,7 +748,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -725,7 +758,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -735,7 +768,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -745,7 +778,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -755,7 +788,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -765,7 +798,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "New tab"
             }
           },
           {
@@ -774,8 +807,8 @@
             "state": {
               "type": "graph-analysis",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-ghost",
+              "title": "graph-analysis"
             }
           }
         ],
@@ -788,53 +821,54 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Создать новую базу": false,
-      "switcher:Меню быстрого перехода": false,
-      "graph:Граф": false,
-      "canvas:Создать новый холст": false,
-      "daily-notes:Сегодняшняя заметка": false,
-      "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false,
-      "markdown-importer:Импорт Markdown-файлов": false,
-      "audio-recorder:Начать/остановить запись": false,
-      "obsidian-excalidraw-plugin:Создать новый чертеж": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "audio-recorder:Start/stop recording": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "obsidian-kanban:Создать новую доску": false,
+      "obsidian-kanban:Create new board": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "fa9e809f4b8e2d8d",
+  "active": "3fa8e48dbc6e2827",
   "lastOpenFiles": [
+    "Идеи для проектов/Дизайн альбомы.md",
+    "Идеи для проектов/Я Турист.md",
+    "Идеи для проектов/sfd.md",
+    "Идеи для проектов/ДнД с ИИ.md",
+    "Идеи для проектов/Дизайн для Нейроприложений.md",
+    "Идеи для проектов/YourLab.md",
+    "Идеи для проектов/AI Search.md",
+    "Идеи для проектов/Безымянная Kanban-доска.md",
+    "Без названия.base",
+    "README.md",
+    "Untitled.md",
+    "Cache/README.md",
     "Промышленное программирование/Паттерны проектирования.md",
     "Промышленное программирование/AIOGRAM.md",
     "Промышленное программирование/Django/Виртуальное окружение.md",
     "Промышленное программирование/Чистый код.md",
-    "Без названия.base",
     "Без названия.md",
     "Без названия 1.md",
     "Промышленное программирование/Рефакторинг.md",
     "Промышленное программирование",
     "Промышленное программирование/Django/Создание приложений.md",
     "Cache/Screenshot 2026-02-01 at 2.23.09 PM.png",
-    "Идеи для проектов/AI Search.md",
     "Cache/Screenshot 2026-02-01 at 2.22.42 PM.png",
-    "Идеи для проектов/YourLab.md",
-    "Идеи для проектов/Безымянная Kanban-доска.md",
     "ProgrammingSummaries/Теория чисел/Быстрое возведение в степень.md",
-    "Идеи для проектов/Я Турист.md",
-    "Идеи для проектов/ДнД с ИИ.md",
-    "Идеи для проектов/Дизайн.md",
     "Промышленное программирование/Django/Миграции.md",
     "Промышленное программирование/Django/Начало работы.md",
     "Промышленное программирование/Django/Внешний вид/views.py.md",
     "Промышленное программирование/Django/Внешний вид/Игромир.md",
     "Промышленное программирование/Django/Внешний вид/Jinja filters.md",
     "ProgrammingSummaries/Минимальные остовы.md",
-    "ProgrammingSummaries/СНМ.md",
-    "ProgrammingSummaries/Сканлайн.md",
-    "ProgrammingSummaries/Тернарный (троичный) поиск.md",
-    "ProgrammingSummaries/Типы данных/Sparce table (Разреженные таблицы).md",
     "ProgrammingSummaries/Canvas cache/Сканлайн.canvas",
     "ProgrammingSummaries/Canvas cache/ДО.canvas",
     "Cache/map_for_site@2x.png",
